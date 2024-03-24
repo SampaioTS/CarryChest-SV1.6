@@ -1,0 +1,13 @@
+C:\Users\jsl_s\source\repos\StardewValleyMods\CarryChest\obj\Debug\CarryChest.csproj.AssemblyReference.cache
+C:\Users\jsl_s\source\repos\StardewValleyMods\CarryChest\obj\Debug\CarryChest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsl_s\source\repos\StardewValleyMods\CarryChest\obj\Debug\CarryChest.AssemblyInfoInputs.cache
+C:\Users\jsl_s\source\repos\StardewValleyMods\CarryChest\obj\Debug\CarryChest.AssemblyInfo.cs
+C:\Users\jsl_s\source\repos\StardewValleyMods\CarryChest\obj\Debug\CarryChest.csproj.CoreCompileInputs.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.csproj.AssemblyReference.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.AssemblyInfoInputs.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.AssemblyInfo.cs
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.csproj.CoreCompileInputs.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\bin\Debug\CarryChest.deps.json
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\bin\Debug\CarryChest.dll
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Debug\CarryChest.dll

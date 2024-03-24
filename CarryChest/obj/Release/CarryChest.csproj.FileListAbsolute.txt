@@ -1,0 +1,8 @@
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\bin\Release\CarryChest.deps.json
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\bin\Release\CarryChest.dll
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.csproj.AssemblyReference.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.AssemblyInfoInputs.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.AssemblyInfo.cs
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.csproj.CoreCompileInputs.cache
+C:\Users\jsl_s\source\repos\CarryChestTesting\CarryChest\obj\Release\CarryChest.dll
