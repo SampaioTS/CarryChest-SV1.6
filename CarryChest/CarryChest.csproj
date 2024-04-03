@@ -6,7 +6,7 @@
   <PropertyGroup>
     <Version>1.3.6</Version>
     <TargetFramework>net6.0</TargetFramework>
-
-    <EnableHarmony>true</EnableHarmony>
+	 <LangVersion>9.0</LangVersion>
+	 <EnableHarmony>true</EnableHarmony>
   </PropertyGroup>
 </Project>

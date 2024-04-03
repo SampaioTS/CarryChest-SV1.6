@@ -7,7 +7,7 @@
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
@@ -15,7 +15,7 @@
   <!--import mod build package-->
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
-    <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.1.0" />
+    <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.2.0" />
   </ItemGroup>
 
   <!--common mod build package options-->

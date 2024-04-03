@@ -1,0 +1,150 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{D0C588F7-D3B8-40A9-BA89-663CC76173B3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>CarryChest</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="CarryChest\bin\Debug\CarryChest.dll" />
+    <Content Include="CarryChest\bin\Release\CarryChest.dll" />
+    <Content Include="CarryChest\docs\screenshot.png" />
+    <Content Include="CarryChest\obj\Debug\CarryChest.csproj.FileListAbsolute.txt" />
+    <Content Include="CarryChest\obj\Debug\CarryChest.dll" />
+    <Content Include="CarryChest\obj\Release\CarryChest.csproj.FileListAbsolute.txt" />
+    <Content Include="CarryChest\obj\Release\CarryChest.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\sendemail-validate.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include=".git\objects\pack\pack-4f7e7a7d0bab51f4b1090b8cad48381ffd8e7544.idx" />
+    <None Include=".git\objects\pack\pack-4f7e7a7d0bab51f4b1090b8cad48381ffd8e7544.pack" />
+    <None Include=".git\objects\pack\pack-4f7e7a7d0bab51f4b1090b8cad48381ffd8e7544.rev" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\CarryChest-SV1.6\FileContentIndex\5cc32a70-a45b-4bc5-99ce-a8a5d36bac3b.vsidx" />
+    <None Include=".vs\CarryChest-SV1.6\FileContentIndex\f66201a1-bbf0-4d8f-948d-c4ce758e8fc8.vsidx" />
+    <None Include=".vs\CarryChest-SV1.6\v17\.wsuo" />
+    <None Include=".vs\CarryChest-SV1.6\v17\DocumentLayout.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="CarryChest\bin\Debug\CarryChest.deps.json" />
+    <None Include="CarryChest\bin\Release\CarryChest.deps.json" />
+    <None Include="CarryChest\CarryChest.csproj" />
+    <None Include="CarryChest\CarryChest.csproj.bak" />
+    <None Include="CarryChest\docs\README.md" />
+    <None Include="CarryChest\docs\release-notes.md" />
+    <None Include="CarryChest\manifest.json" />
+    <None Include="CarryChest\obj\CarryChest.csproj.nuget.dgspec.json" />
+    <None Include="CarryChest\obj\CarryChest.csproj.nuget.g.props" />
+    <None Include="CarryChest\obj\CarryChest.csproj.nuget.g.targets" />
+    <None Include="CarryChest\obj\Debug\CarryChest.AssemblyInfoInputs.cache" />
+    <None Include="CarryChest\obj\Debug\CarryChest.assets.cache" />
+    <None Include="CarryChest\obj\Debug\CarryChest.csproj.AssemblyReference.cache" />
+    <None Include="CarryChest\obj\Debug\CarryChest.csproj.CoreCompileInputs.cache" />
+    <None Include="CarryChest\obj\Debug\CarryChest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="CarryChest\obj\Debug\net6.0\CarryChest.AssemblyInfoInputs.cache" />
+    <None Include="CarryChest\obj\Debug\net6.0\CarryChest.assets.cache" />
+    <None Include="CarryChest\obj\Debug\net6.0\CarryChest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="CarryChest\obj\project.assets.json" />
+    <None Include="CarryChest\obj\project.nuget.cache" />
+    <None Include="CarryChest\obj\Release\CarryChest.AssemblyInfoInputs.cache" />
+    <None Include="CarryChest\obj\Release\CarryChest.assets.cache" />
+    <None Include="CarryChest\obj\Release\CarryChest.csproj.AssemblyReference.cache" />
+    <None Include="CarryChest\obj\Release\CarryChest.csproj.CoreCompileInputs.cache" />
+    <None Include="CarryChest\obj\Release\CarryChest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="CarryChest\_releases\CarryChest 1.3.6.zip" />
+    <None Include="common.targets" />
+    <None Include="packages.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CarryChest\Framework\ChestHelper.cs" />
+    <Compile Include="CarryChest\Mod.cs" />
+    <Compile Include="CarryChest\obj\Debug\CarryChest.AssemblyInfo.cs" />
+    <Compile Include="CarryChest\obj\Debug\net6.0\CarryChest.AssemblyInfo.cs" />
+    <Compile Include="CarryChest\obj\Release\CarryChest.AssemblyInfo.cs" />
+    <Compile Include="CarryChest\Patches\ItemPatcher.cs" />
+    <Compile Include="CarryChest\Patches\ObjectPatcher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\CarryChest\v17\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <Import Project="packages\Pathoschild.Stardew.ModBuildConfig.4.1.1\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('packages\Pathoschild.Stardew.ModBuildConfig.4.1.1\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Pathoschild.Stardew.ModBuildConfig.4.1.1\build\Pathoschild.Stardew.ModBuildConfig.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Pathoschild.Stardew.ModBuildConfig.4.1.1\build\Pathoschild.Stardew.ModBuildConfig.targets'))" />
+    <Error Condition="!Exists('packages\Leclair.Stardew.ModManifestBuilder.2.2.0\build\Leclair.Stardew.ModManifestBuilder.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Leclair.Stardew.ModManifestBuilder.2.2.0\build\Leclair.Stardew.ModManifestBuilder.targets'))" />
+  </Target>
+  <Import Project="packages\Leclair.Stardew.ModManifestBuilder.2.2.0\build\Leclair.Stardew.ModManifestBuilder.targets" Condition="Exists('packages\Leclair.Stardew.ModManifestBuilder.2.2.0\build\Leclair.Stardew.ModManifestBuilder.targets')" />
+</Project>

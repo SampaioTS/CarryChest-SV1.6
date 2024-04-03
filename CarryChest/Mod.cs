@@ -90,7 +90,13 @@ namespace CarryChest
                     placed.heldObject.Value = original.heldObject.Value;
                     placed.MinutesUntilReady = original.MinutesUntilReady;
                     if (original.Items.Any())
-                        placed.Items.OverwriteWith(original.Items);
+                    {
+                        //placed.Items.OverwriteWith(original.Items);
+                        // when a chest is placed on another chest, overwrite will cause the loss of items
+                        //AddRange mitigates the problem by "fusing" the inventories.
+                        // TODO: figure out what happens on inventory overflow
+                        placed.Items.AddRange(original.Items);
+                    }
                     foreach (var modData in original.modData)
                         placed.modData.CopyFrom(modData);
                 }
